@@ -8,8 +8,7 @@ Project consists of a creating a Risk-based access policies as a part of Azure A
 
 <h2>Environments Used </h2>
 
-- <b>Microsoft Azure Portal</b> 
-- <b>Azure Active Directory service</b>
+- <b>Microsoft 365 Admin Center Portal</b> 
 
 <h2>Prerequisites</h2>
 
@@ -25,30 +24,34 @@ Project consists of a creating a Risk-based access policies as a part of Azure A
 
 <h3>Steps: </h3>
 
-1. Azure portal --> Azure AD Identity Protection
-2.	User risk policy --> select users, set High User risk, set Block access
-3.	Sign-In risk policy --> select users, set High User risk, set Allow access (Require MFA)
-4.	Done
+1. Go to Microsoft 365 admin portal 
+2.	From Menu , select ‘Users’ -> Active users
+3.	Click ‘+add user’
+4.	Give name, username, First name, Last name, Password, location
+5.	Next --> 
+6.	Select license EMS
+7.	Next --> Finish
+
 
 
 
 <h3>Screenshots:</h3>
 
 <p align="center">
-User-Risk: <br/>
-<img src="user risk.png" height="50%" width="50%" />
+All users: <br/>
+<img src="users.png" height="50%" width="50%" />
+<br />
+<br />
+Create a User: <br/>
+<img src="details.png" height="50%" width="50%"/>
+<br />
+<br />
+Assign a license: <br/>
+<img src="license.png" height="65%" width="50%"/>
 <br />
 <br />
 Result: <br/>
-<img src="1.png" height="50%" width="50%"/>
-<br />
-<br />
-Sign-in Risk: <br/>
-<img src="sign in risk.png" height="65%" width="50%"/>
-<br />
-<br />
-Result: <br/>
-<img src="2.png" height="65%" width="50%"/>
+<img src="Result.png" height="65%" width="50%"/>
 <br />
 <br />
 
