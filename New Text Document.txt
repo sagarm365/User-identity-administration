@@ -1,0 +1,9 @@
+Creating User Identity and assign the EMS license
+STEPS:
+1.	Go to Microsoft 365 admin portal 
+2.	From Menu , select ‘Users’ -> Active users
+3.	Click ‘+add user’
+4.	Give name, username, First name, Last name, Password, location
+5.	Next  
+6.	Select license EMS
+7.	Next  Finish
