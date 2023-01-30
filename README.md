@@ -2,7 +2,7 @@
 Creating User Identity and assign the EMS license.
 
 <h2>Description</h2>
-Project consists of a creating a Risk-based access policies as a part of Azure AD Identity Protection policies. Risk-based access policies, there are two types of risk policies in Azure Active Directory (Azure AD) Conditional Access we can set up to automate the response to risks and allow users to self-remediate when risk is detected: Sign-in risk policy and User-risk policy. In this practical, it is auto applying for High risk level.
+Project consists of a creating a new user and assigning a required license to him/her. 
 <br />
 
 
